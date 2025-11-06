@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prepare": "husky",
     "generate-config": "node scripts/generateCustomConfig.js",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "preview": "vite preview"    
   },
   "dependencies": {
     "react": "^19.1.1",
